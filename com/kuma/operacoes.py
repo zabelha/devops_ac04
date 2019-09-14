@@ -1,16 +1,16 @@
 class Operacoes ():
-	
-	def soma (self, valores):
+    
+    def divisao (self, valores):
 		va1 = 0
 		for v in valores:
-			va1 = va1 + v 
+			va1 = va1 / v 
 			
 		return va1
 		
-	def subtracao(self, valores):
+	def vezes(self, valores):
 		va1 = 0 
 		for v in valores:
-			va1 = va1 - v 
+			va1 = va1 * v 
 			
 		return va1 
 		
