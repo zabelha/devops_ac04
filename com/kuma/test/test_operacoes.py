@@ -1,5 +1,5 @@
 from unittest import TestCase 
-from com.kuma.operacoes import Operacoes
+from com.kuma.operacoes import Operacoes 
 
 
 class TestOperacoes(TestCase):
@@ -8,5 +8,5 @@ class TestOperacoes(TestCase):
 		self.operacoes = Operacoes()
 		
 	
-	def test_divisao(self):
-		self.assertEqual(self.operacoes.divisao([2,10]), 5, "Should be 5")
+	def test_soma(self):
+		self.assertEqual(self.operacoes.soma([1,5]), 6, "Should be 6")
