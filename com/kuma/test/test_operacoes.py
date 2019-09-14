@@ -9,4 +9,4 @@ class TestOperacoes(TestCase):
 		
 	
 	def test_divisao(self):
-		self.assertEqual(self.operacoes.divisao([10,2]), 5, "Should be 5")
+		self.assertEqual(self.operacoes.divisao([2,10]), 5, "Should be 5")
